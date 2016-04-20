@@ -14,7 +14,7 @@ add_shortcode('text_plugin', 'myfirstplugin_admin');
 
 function myShortCode($atts, $content = null)
 {
-	global $wpdb;
+    global $wpdb;
 	
 	$a = shortcode_atts(
 		array(
